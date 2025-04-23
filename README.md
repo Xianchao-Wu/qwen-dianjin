@@ -11,7 +11,7 @@
 </div>
 
 ## 🚀 News 
-- **2025-04-30** 🔥🔥🔥 [DianJin-R1](DianJin-R1/README.md) series open source release! This release includes the DianJin-R1-Data dataset, as well as two powerful models: DianJin-R1-7B and DianJin-R1-13B. Please check out our [technical report](https://arxiv.org/abs/2504.15716) for more details and explore the capabilities of these new models.
+- **2025-04-23** 🔥🔥🔥 [DianJin-R1](DianJin-R1/README.md) series open source release! This release includes the DianJin-R1-Data dataset, as well as two powerful models: DianJin-R1-7B and DianJin-R1-13B. Please check out our [technical report](https://arxiv.org/abs/2504.15716) for more details and explore the capabilities of these new models.
 - **2025.01.06** The [CFLUE](https://github.com/aliyun/cflue) dataset has been fully open-sourced and is now available for download! [Download here](https://www.modelscope.cn/datasets/tongyi_dianjin/CFLUE) 🚀🚀🚀
 - **2024.05.16** The paper "Benchmarking Large Language Models on CFLUE - A Chinese Financial Language Understanding Evaluation Dataset" has been officially accepted by ACL-2024! 🚀🚀🚀
 
