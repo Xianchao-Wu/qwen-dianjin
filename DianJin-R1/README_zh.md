@@ -339,7 +339,7 @@ python3 eval.py --result_path <result path>
 ```
 @article{dianjin-r1,
     title   = {DianJin-R1: Evaluating and Enhancing Financial Reasoning in Large Language Models}, 
-    author   = {Jie Zhu, Qian Chen, and Huaixia Dou, Junhui Li, Lifan Guo, Feng Chen, and Chi Zhang},
+    author   = {Jie Zhu, Qian Chen, Huaixia Dou, Junhui Li, Lifan Guo, Feng Chen, Chi Zhang},
     journal = {arxiv.org/abs/2504.15716},
     year    = {2025}
 }
