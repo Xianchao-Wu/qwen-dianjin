@@ -11,22 +11,45 @@
 </div>
 
 ## 🚀 News 
-- **2025-04-23** 🔥🔥🔥 [DianJin-R1](DianJin-R1/README.md) series open source release! This release includes the DianJin-R1-Data dataset, as well as two powerful models: DianJin-R1-7B and DianJin-R1-13B. Please check out our [technical report](https://arxiv.org/abs/2504.15716) for more details and explore the capabilities of these new models.
-- **2025.01.06** The [CFLUE](https://github.com/aliyun/cflue) dataset has been fully open-sourced and is now available for download! [Download here](https://www.modelscope.cn/datasets/tongyi_dianjin/CFLUE) 🚀🚀🚀
-- **2024.05.16** The paper "Benchmarking Large Language Models on CFLUE - A Chinese Financial Language Understanding Evaluation Dataset" has been officially accepted by ACL-2024! 🚀🚀🚀
+- **2025.05.22** 🔥🔥🔥 "M<sup>3</sup>FinMeeting: A Multilingual, Multi-Sector, and Multi-Task Financial Meeting Understanding Evaluation Dataset" has been officially accepted by ACL-2025! 
+- **2025.04.23** [DianJin-R1](DianJin-R1/README.md) series open source release! This release includes the DianJin-R1-Data dataset, as well as two powerful models: DianJin-R1-7B and DianJin-R1-13B. Please check out our technical report "[DianJin-R1: Evaluating and Enhancing Financial Reasoning in Large Language Models](https://arxiv.org/abs/2504.15716)" for more details and explore the capabilities of these new models.
+- **2025.01.06** The [CFLUE](https://github.com/aliyun/cflue) dataset has been fully open-sourced and is now available for download!  🚀🚀🚀
+- **2024.05.16** The paper "[Benchmarking Large Language Models on CFLUE - A Chinese Financial Language Understanding Evaluation Dataset](https://arxiv.org/abs/2405.10542)" has been officially accepted by ACL-2024! 🚀🚀🚀
 
 The **data** and **models** that have been released so far are as follows:
 
-|                 |                         ModelScope                          |               HuggingFace                |
-|:---------------:|:-----------------------------------------------------------:|:----------------------------------------:|
-| DianJin-R1-32B  | [Model](https://modelscope.cn/organization/tongyi_dianjin)  | [Model](https://huggingface.co/DianJin/) |
-|  DianJin-R1-7B  | [Model](https://modelscope.cn/organization/tongyi_dianjin)  | [Model](https://huggingface.co/DianJin/) |
-| DianJin-R1-Data | [Data](https://modelscope.cn/organization/tongyi_dianjin)  | [Data](https://huggingface.co/DianJin/)  |
-|      CFLUE      | [Data](https://modelscope.cn/datasets/tongyi_dianjin/CFLUE) | [Data](https://huggingface.co/DianJin/)  |
+<table style="width: 100%; text-align: center;">
+    <tr>
+        <td></td>
+        <td>ModelScope</td>
+        <td>HuggingFace</td>
+        <td>Paper</td>
+    <tr>
+    <tr>
+        <th rowspan="3">DianJin-R1</th>
+        <td><a href="https://modelscope.cn/organization/tongyi_dianjin">DianJin-R1-32B</a></td>
+        <td><a href="https://huggingface.co/DianJin/">DianJin-R1-32B</a></td>
+        <th rowspan="3"><a href="https://arxiv.org/abs/2504.15716">technical report</a></th>
+    </tr>
+    <tr>
+        <td><a href="https://modelscope.cn/organization/tongyi_dianjin">DianJin-R1-7B</a></td>
+        <td><a href="https://huggingface.co/DianJin/">DianJin-R1-7B</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://modelscope.cn/organization/tongyi_dianjin">DianJin-R1-Data</a></td>
+        <td><a href="https://huggingface.co/DianJin/">DianJin-R1-Data</a></td>
+    </tr>
+    <tr>
+        <td>CFLUE</td>
+        <td><a href="https://modelscope.cn/datasets/tongyi_dianjin/CFLUE">CFLUE</a></td>
+        <td><a href="https://huggingface.co/DianJin/">CFLUE</a></td>
+        <td><a href="https://arxiv.org/abs/2405.10542">ACL-2024</a></td>
+    </tr>
+</table>
 
 ## 📝 Introduction
 
-Welcome to Tongyi DianJin 👋
+Welcome to Qwen DianJin 👋
 
 Tongyi DianJin is a financial intelligence solution platform built by Alibaba Cloud, 
 dedicated to providing financial business developers with a convenient artificial intelligence application development environment. 
@@ -60,14 +83,21 @@ Equip developers with a suite of financial APIs and tools, making it easy to int
 If you find our work helpful, feel free to give us a cite.
 
 ```
-@article{dianjin-r1,
+@inproceedings{zhu-etal-2025-finmeeting,
+    title = "M^{3}FinMeeting: A Multilingual, Multi-Sector, and Multi-Task Financial Meeting Understanding Evaluation Dataset",
+    author = "Jie Zhu, Junhui Li, Yalong Wen, Xiandong Li, Lifan Guo, Feng Chen",
+    booktitle = "Findings of ACL",
+    year = "2025"
+}
+
+@article{zhu-etal-2025-dianjin-r1,
     title   = {DianJin-R1: Evaluating and Enhancing Financial Reasoning in Large Language Models}, 
-    author   = {Jie Zhu, Qian Chen, and Huaixia Dou, Junhui Li, Lifan Guo, Feng Chen, and Chi Zhang},
+    author   = {Jie Zhu, Qian Chen, Huaixia Dou, Junhui Li, Lifan Guo, Feng Chen, Chi Zhang},
     journal = {arxiv.org/abs/2504.15716},
     year    = {2025}
 }
 
-@inproceedings{zhu-etal-2024-benchmarking,
+@inproceedings{zhu-etal-2024-cflue,
     title = "Benchmarking Large Language Models on CFLUE - A Chinese Financial Language Understanding Evaluation Dataset",
     author = "Jie Zhu, Junhui Li, Yalong Wen, Lifan Guo",
     booktitle = "Findings of ACL",
@@ -78,10 +108,12 @@ If you find our work helpful, feel free to give us a cite.
 
 ## 🤝 Contact Us
 
-Thank you very much for your attention to the Tongyi DianJin series! 
-For more information about the various versions of the Tongyi DianJin series, 
-or if you have any questions or suggestions, please feel free to contact us via our official email: CFLUE@alibabacloud.com. 
-Our team will be dedicated to providing you with assistance and support.
+Thank you very much for your interest in the Tongyi Dianjin series! 
+If you would like to leave a message for our research or product team, feel free to contact us via our official email or by scanning the code to join our DingTalk group: CFLUE@alibabacloud.com. 
+Our team is committed to providing you with assistance and support.
+
+<img src="images/dianjin_dingding.png" alt="DianJin Logo" style="width: 200px;">
+
 
 ## ⚠️ Disclaimer
 

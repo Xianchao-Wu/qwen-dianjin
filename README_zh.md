@@ -12,18 +12,41 @@
 
 
 ## 🚀 最新动态
-- **2025-04-23** 🔥🔥🔥 [DianJin-R1](DianJin-R1/README.md) 系列开源发布！此次发布包括 DianJin-R1-Data 数据集，以及两款强大的模型：DianJin-R1-7B 和 DianJin-R1-13B。查看我们的[技术报告](https://arxiv.org/abs/2504.15716)，深入了解详情，并探索这些新模型的能力。
-- **2025.01.06** [CFLUE](https://github.com/aliyun/cflue)数据集已经全部开源，现已开放下载！ [Download here](https://www.modelscope.cn/datasets/tongyi_dianjin/CFLUE) 🚀🚀🚀
-- **2024.05.16** 《Benchmarking Large Language Models on CFLUE - A Chinese Financial Language Understanding Evaluation Dataset》已被 ACL-2024 正式录用！ 🚀🚀🚀
+- **2025.05.22** 🔥🔥🔥《M<sup>3</sup>FinMeeting: A Multilingual, Multi-Sector, and Multi-Task Financial Meeting Understanding Evaluation Dataset》已被 ACL-2025 正式录用！
+- **2025.04.23** [DianJin-R1](DianJin-R1/README.md) 系列开源发布！此次发布包括 DianJin-R1-Data 数据集，以及两款强大的模型：DianJin-R1-7B 和 DianJin-R1-13B。查看我们的技术报告《[DianJin-R1: Evaluating and Enhancing Financial Reasoning in Large Language Models](https://arxiv.org/abs/2504.15716)》，深入了解详情，并探索这些新模型的能力。
+- **2025.01.06** [CFLUE](https://github.com/aliyun/cflue)数据集已经全部开源，现已开放下载！🚀🚀🚀
+- **2024.05.16** 《[Benchmarking Large Language Models on CFLUE - A Chinese Financial Language Understanding Evaluation Dataset](https://arxiv.org/abs/2405.10542)》已被 ACL-2024 正式录用！ 🚀🚀🚀
 
 目前已发布的**数据**和**模型**如下：
 
-|                 |                       ModelScope                        |                 HuggingFace                 |
-|:---------------:|:-------------------------------------------------------:|:-------------------------------------------:|
-| DianJin-R1-32B  | [模型](https://modelscope.cn/organization/tongyi_dianjin) |    [模型](https://huggingface.co/DianJin/)    |
-|  DianJin-R1-7B  | [模型](https://modelscope.cn/organization/tongyi_dianjin) |    [模型](https://huggingface.co/DianJin/)    |
-| DianJin-R1-Data | [数据](https://modelscope.cn/organization/tongyi_dianjin) |    [数据](https://huggingface.co/DianJin/)    |
-|      CFLUE      | [数据](https://modelscope.cn/datasets/tongyi_dianjin/CFLUE) |    [数据](https://huggingface.co/DianJin/)    |
+<table style="width: 100%; text-align: center;">
+    <tr>
+        <td></td>
+        <td>ModelScope</td>
+        <td>HuggingFace</td>
+        <td>Paper</td>
+    <tr>
+    <tr>
+        <th rowspan="3">DianJin-R1</th>
+        <td><a href="https://modelscope.cn/organization/tongyi_dianjin">DianJin-R1-32B</a></td>
+        <td><a href="https://huggingface.co/DianJin/">DianJin-R1-32B</a></td>
+        <th rowspan="3"><a href="https://arxiv.org/abs/2504.15716">technical report</a></th>
+    </tr>
+    <tr>
+        <td><a href="https://modelscope.cn/organization/tongyi_dianjin">DianJin-R1-7B</a></td>
+        <td><a href="https://huggingface.co/DianJin/">DianJin-R1-7B</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://modelscope.cn/organization/tongyi_dianjin">DianJin-R1-Data</a></td>
+        <td><a href="https://huggingface.co/DianJin/">DianJin-R1-Data</a></td>
+    </tr>
+    <tr>
+        <td>CFLUE</td>
+        <td><a href="https://modelscope.cn/datasets/tongyi_dianjin/CFLUE">CFLUE</a></td>
+        <td><a href="https://huggingface.co/DianJin/">CFLUE</a></td>
+        <td><a href="https://arxiv.org/abs/2405.10542">ACL-2024</a></td>
+    </tr>
+</table>
 
 ## 📝 简介
 欢迎来到通义点金 👋
@@ -58,14 +81,21 @@
 If you find our work helpful, feel free to give us a cite.
 
 ```
-@article{dianjin-r1,
+@inproceedings{zhu-etal-2025-finmeeting,
+    title = "M^{3}FinMeeting: A Multilingual, Multi-Sector, and Multi-Task Financial Meeting Understanding Evaluation Dataset",
+    author = "Jie Zhu, Junhui Li, Yalong Wen, Xiandong Li, Lifan Guo, Feng Chen",
+    booktitle = "Findings of ACL",
+    year = "2025"
+}
+
+@article{zhu-etal-2025-dianjin-r1,
     title   = {DianJin-R1: Evaluating and Enhancing Financial Reasoning in Large Language Models}, 
-    author   = {Jie Zhu, Qian Chen, and Huaixia Dou, Junhui Li, Lifan Guo, Feng Chen, and Chi Zhang},
+    author   = {Jie Zhu, Qian Chen, Huaixia Dou, Junhui Li, Lifan Guo, Feng Chen, Chi Zhang},
     journal = {arxiv.org/abs/2504.15716},
     year    = {2025}
 }
 
-@inproceedings{zhu-etal-2024-benchmarking,
+@inproceedings{zhu-etal-2024-cflue,
     title = "Benchmarking Large Language Models on CFLUE - A Chinese Financial Language Understanding Evaluation Dataset",
     author = "Jie Zhu, Junhui Li, Yalong Wen, Lifan Guo",
     booktitle = "Findings of ACL",
@@ -75,7 +105,9 @@ If you find our work helpful, feel free to give us a cite.
 ```
 
 ## 🤝 联系我们
-非常感谢您对通义点金系列的关注！如果您有兴趣向我们的研究团队或产品团队留言，欢迎通过我们的官方邮箱与我们联系：CFLUE@alibabacloud.com。我们的团队将竭诚为您提供帮助和支持。
+非常感谢您对通义点金系列的关注！如果您有兴趣向我们的研究团队或产品团队留言，欢迎通过我们的官方邮箱或者扫码加入钉群与我们联系：CFLUE@alibabacloud.com。我们的团队将竭诚为您提供帮助和支持。
+
+<img src="images/dianjin_dingding.png" alt="DianJin Logo" style="width: 200px;">
 
 ## ⚠️ 免责声明
 
