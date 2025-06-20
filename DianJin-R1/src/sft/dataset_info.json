@@ -26,5 +26,12 @@
       "prompt": "instruction",
       "response": "output"
     }
+  },
+  "dianjinr1_data": {
+    "file_name": "dianjin_r1_dataset.json",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output"
+    }
   }
 }
